@@ -5,6 +5,7 @@ namespace MvcMovie.Models
 {
     public class Movie
     {
+        // Primary Id
         public int Id { get; set; }
         [StringLength(60, MinimumLength = 3)]
         public string Title { get; set; }
